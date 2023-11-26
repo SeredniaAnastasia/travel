@@ -1,79 +1,93 @@
-@media (max-width: 1300px){
+@media (max-width: 1300px) {
     .weekend {
-        &__blue-img--left {
+        &__blue-img-left {
             width: 442px;
             height: 300px;
         }
-        &__blue-img--right {
+
+        &__blue-img-right {
             max-width: 492px;
             min-height: 496px;
         }
     }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
+
     .adventure {
         &__light-left-img {
             width: 585px;
             height: 660px;
         }
+
         &__light-right-title {
             max-width: 240px;
             margin-top: 0;
         }
     }
+
     .planning {
         &__img-left {
             width: 392px;
         }
+
         &__img-right {
             width: 333px;
             height: 477px;
         }
     }
+
     .weekend {
-        &__blue-img--left {
+        &__blue-img-left {
             width: 408px;
             height: 271px;
         }
-        &__blue-img--right {
+
+        &__blue-img-right {
             max-width: 315px;
             min-height: 403px;
             padding-left: 20px;
         }
     }
-    
+
 }
 
-@media (max-width: 1050px){
+@media (max-width: 1050px) {
+
     .hotels {
         min-height: 655px;
+
         &__map {
             width: 536px;
             min-height: 343px;
             margin-top: 40px;
         }
+
         &__text {
             max-width: 345px;
         }
+
         &__left {
             margin-left: 25px;
             margin-right: 22px;
         }
-     
-
     }
+
     .weekend {
+
         &__black-subtitle {
             max-width: 410px;
         }
-        &__blue-title--left {
+
+        &__blue-title-left {
             max-width: 330px;
         }
-        &__blue-subtitle--right {
+
+        &__blue-subtitle-right {
             max-width: 409px;
         }
-        &__blue-img--right {
+
+        &__blue-img-right {
             max-width: 359px;
             min-height: 430px;
             margin-left: 20px;
@@ -81,57 +95,70 @@
     }
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
     .adventure {
         &__light-left-img {
             width: 386px;
             height: 605px;
         }
+
         &__light-right-img {
             margin: 20px auto;
         }
     }
-    .weekend{
+
+    .weekend {
         display: block;
+
         &__black-title {
             font-size: 24px;
             margin-bottom: 20px;
-        } 
+        }
+
         &__black-subtitle {
             max-width: 316px;
             margin-bottom: 20px;
         }
+
         &__left {
             padding-top: 20px;
         }
-        &__blue-img--left {
+
+        &__blue-img-left {
             width: 314px;
             height: 335px;
         }
+
         &__blue-title--left {
             font-size: 24px;
         }
+
         &__blue {
             min-height: 1300px;
         }
+
         &__right {
             padding-top: 100px;
             margin-left: 40%;
         }
+
         &__blue-subtitle--right {
             max-width: 315px;
         }
     }
+
     .planning {
         &__img-left {
             width: 320px;
             margin-top: 32px;
-        } 
+        }
+
         &__text {
             padding-top: 115px;
             margin-left: 12px;
             margin-right: 12px;
         }
+
         &__img-right {
             width: 260px;
             height: 440px;
@@ -140,120 +167,151 @@
     }
 }
 
-@media (max-width: 860px){
+@media (max-width: 860px) {
     .hotels {
         padding-top: 20px;
         padding-bottom: 20px;
-        &__inner{
+
+        &__inner {
             display: block;
         }
-        
+
     }
+
     .planning {
         &__img-left {
             width: 230px;
-            margin-top: 44px;
+            // margin-top: 44px;
         }
+
         &__text {
             padding-top: 115px;
             margin-left: 12px;
             margin-right: 12px;
         }
+
         &__img-right {
             width: 240px;
             margin-top: 195px;
         }
+
         &__title {
             font-size: 30px;
         }
+
     }
+
     .weekend {
         &__right {
             margin-left: 26%;
-        } 
+        }
+
     }
+
     .about {
         &__text {
             max-width: 374px;
             margin-bottom: 120px;
-       } 
+        }
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .adventure {
         &__light-right-title {
             font-size: 24px;
         }
+
         &__light-content {
             display: block;
         }
+
         &__black {
             padding-top: 20px;
             padding-right: 10px;
         }
+
         &__light-left-img {
             width: 352px;
             height: 420px;
         }
+
         &__light-right-img {
             width: 266px;
             height: 304px;
         }
+
         &__black-title {
             font-size: 24px;
         }
+
         &__black {
             min-height: 380px;
         }
+
         &__black-subtitle {
             max-width: 300px;
         }
     }
+
     .planning {
         &__inner {
             display: block;
         }
+
         &__img-left {
             width: 528px;
             margin-top: 97px;
         }
+
         &__text {
-            padding-top: 20px; 
+            padding-top: 20px;
         }
+
         &__img-right {
             width: 332px;
-            margin-top: 30px; 
+            margin-top: 30px;
         }
     }
 }
 
-@media (max-width: 620px){
+@media (max-width: 620px) {
     .hotels {
-        &__map{
+        &__map {
             width: 438px;
             min-height: 300px;
         }
+
         &__title {
             font-size: 24px;
             max-width: 314px;
         }
     }
+
     .planning {
         &__img-left {
             width: 408px;
-            margin-top: 149px;
+            // margin-top: 149px;
         }
     }
+
     .weekend {
         &__right {
             margin-left: 10%;
-        } 
-        &__blue-img--right {
-            max-width: 313px;
-            min-height: 382px;
         }
+
+        &__blue-img-right {
+            max-width: 90%;
+            min-height: 382px;
+            margin-left: 0;
+        }
+
+        &__text-decor {
+            display: none;
+        }
+
     }
+
     .header {
         .menu {
             &__list {
@@ -267,32 +325,39 @@
                 transition: all .5s;
                 padding-left: 0;
             }
+
             .menu__btn--active span:nth-of-type(1) {
                 // height: 0;
                 width: 0;
-              }
+            }
+
             .menu__btn--active span:nth-of-type(2) {
                 top: 50%;
-                transform:rotate(45deg);  
-              }
+                transform: rotate(45deg);
+            }
+
             .menu__btn--active span:nth-of-type(3) {
                 top: 50%;
-                transform: rotate(-45deg); 
-              }
-            &__list--active{
+                transform: rotate(-45deg);
+            }
+
+            &__list--active {
                 transform: translate(-50%, 15%);
-                }
-            &__item{
+            }
+
+            &__item {
                 width: 100%;
                 text-align: center;
                 margin: 0 auto;
-                }
-            &__link{
+            }
+
+            &__link {
                 display: block;
                 padding: 12px 0;
                 color: white;
-                }
-            &__btn{
+            }
+
+            &__btn {
                 display: block;
                 width: 30px;
                 height: 22px;
@@ -303,7 +368,8 @@
                 z-index: 2;
                 position: absolute;
                 background-color: transparent;
-                }
+            }
+
             &__btn span {
                 position: absolute;
                 width: 30px;
@@ -312,74 +378,86 @@
                 left: 0;
                 background-color: black;
                 transition: all 0.5s;
-                }
+            }
+
             &__btn span:nth-of-type(2) {
                 top: 10px;
-                }
+            }
+
             &__btn span:nth-of-type(3) {
                 top: 20px;
-               }
+            }
         }
     }
+
     .about {
         &__text {
             padding-top: 177px;
             margin-bottom: 170px;
             max-width: 328px;
             margin-left: 10px;
-       } 
+        }
+
         &__continent {
             margin-left: 10px;
-    }
-    &__continent-line {
-        width: calc(100% - 35px);
+        }
 
-    }
+        &__continent-line {
+            width: calc(100% - 35px);
 
-    &__title {
-        font-size: 60px;
-   }
+        }
+
+        &__title {
+            font-size: 60px;
+        }
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
     .footer {
         min-height: 320px;
+
         &__title {
             font-size: 24px;
             margin-bottom: 20px;
         }
     }
+
     .adventure {
-       &__light-left-img {
+        &__light-left-img {
             width: 304px;
             height: 384px;
         }
     }
+
     .hotels {
         &__map {
             width: 316px;
             min-height: 213px;
         }
     }
+
     .planning {
         &__img-left {
             width: 321px;
-            margin-top: 205px;
+            // margin-top: 205px;
         }
     }
+
     .weekend {
-        &__blue-img--left {
+        &__blue-img-left {
             width: 287px;
             height: 305px;
         }
+
         &__blue-img--right {
             max-width: 251px;
             min-height: 354px;
             padding-left: 37px;
         }
+
         &__right {
             margin-left: 3%;
-        } 
+        }
     }
 }
